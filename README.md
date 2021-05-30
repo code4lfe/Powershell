@@ -1,0 +1,4 @@
+# Powershell
+All my powershell goodies
+
+This is a collection of powershell scripts I use for managing publishes and updates to the Azure environment.  I started off with a typical issue I encountered which is updating a web server code that lives on a windows VM and part of a load balancer.  Ideally you want to remove the server from the Load balancer, udpate the code, verify the website, and then put the VM back in the Load balancer.  Rinse and repeat for other servers.  Same can be done for windows updates to avoid downtime on a web server.  I used a service principal account which there are plenty of articles online to show you how to do that.  I will add those scripts over time to save people time.  Security will need to be taken into account and you should permission things accordingly. 
